@@ -1,1 +1,1 @@
-FROM redhat/uni9
+FROM redhat/ubi9
