@@ -1,5 +1,5 @@
 ARG version
-FROM almalinux:9
+FROM almalinux:${version:-8}
 ARG COURSE="Docker" \
     TRAINER="girisha" 
 RUN echo "trainer is ${TRAINER},version is ${VERSION}"
